@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-WebSite available on: [Netlify](https://nextjs-fetchapi.netlify.app/).
+*WebSite available on: [Netlify](https://nextjs-fetchapi.netlify.app/).*
 
 
 ## Getting Started
