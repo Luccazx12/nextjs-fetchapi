@@ -1,7 +1,5 @@
 # Next.Js
 
-<img src="/logo.png" height="80px" />
-
 Next.js é um framework para React. 
 
 Uma de suas funções é a renderização estática e pelo lado do servidor. Possui suporte ao Typescript e um serviço de tratamento de rotas.
