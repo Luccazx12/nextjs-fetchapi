@@ -1,37 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.Js
 
-*WebSite available on: [Netlify](https://nextjs-fetchapi.netlify.app/).*
+<img src="/logo.png" height="80px" />
+
+Next.js é um framework para React. 
+
+Uma de suas funções é a renderização estática e pelo lado do servidor. Possui suporte ao Typescript e um serviço de tratamento de rotas.
+
+## Como iniciar:
+
+* Se você estiver utilizando o yarn:
 
 
-## Getting Started
+yarn create next-app nome-do-seu-projeto
 
-First, run the development server:
+* Se você estiver utilizando o npm: 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+npx create-next-app nome-do-seu-projeto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Caso ocorra algum erro como: “command not found: create-next-app”
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+* Tente instalar o pacote create-next-app:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+npm install -g create-next-app
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+* Em seguida, você pode criar o app nextjs:
 
-## Learn More
+npx create-next-app nome-do-seu-projeto
 
-To learn more about Next.js, take a look at the following resources:
+## Para integrar o Typescript em seus projetos, você precisará instalar os seguintes pacotes: 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Utilizando o yarn:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+yarn add typescript @types/react @types/node –D
 
-## Deploy on Vercel
+* Utilizando o npm 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+npm install typescript @types/react @types/node –D
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
